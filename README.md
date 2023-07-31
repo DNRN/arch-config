@@ -13,3 +13,25 @@ i3status-rust
 menu
 rofi
 
+## Usefull commands
+
+Clear pacman cache
+```
+sudo paccache -rk 1
+```
+
+Remove all cached versions of uninstalled packages, re-run paccache with u flag
+```
+sudo paccache -ruk0
+```
+
+Remove all uninstalled packages
+```
+sudo pacman -Sc
+```
+
+Invalid or corrupt package (PGP signature)
+```
+pacman -Syy
+pacman -S archlinux-keyring
+```
