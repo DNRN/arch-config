@@ -35,3 +35,15 @@ Invalid or corrupt package (PGP signature)
 pacman -Syy
 pacman -S archlinux-keyring
 ```
+
+### Local file encryption
+Encrypt file with a password
+```
+gpg -c --output [filename]
+```
+
+Decrypt
+```
+gpgp -d [filename]
+```
+
