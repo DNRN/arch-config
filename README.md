@@ -39,7 +39,8 @@ pacman -S archlinux-keyring
 ### Local file encryption
 Encrypt file with a password
 ```
-gpg -c --output [filename]
+gpg -c [input-file] --output [filename]
+echo "secret" | gpg -c --output [filename]
 ```
 
 Decrypt
