@@ -37,9 +37,12 @@ pacman -S archlinux-keyring
 ```
 
 ### Local file encryption
-Encrypt file with a password
+Encrypt file with a password, if --output is left out the output file wil become input-file.pgp
 ```
 gpg -c [input-file] --output [filename]
+```
+Or a secret string
+```
 echo "secret" | gpg -c --output [filename]
 ```
 
