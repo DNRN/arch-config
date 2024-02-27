@@ -51,3 +51,9 @@ Decrypt
 gpgp -d [filename]
 ```
 
+## ffmpeg
+Convert mov to mp4
+```
+ffmpeg -i my-video.mov -vcodec h264 -acodec mp2 my-video.mp4
+```
+
