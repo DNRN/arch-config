@@ -22,7 +22,7 @@ pacman -Qo <package>
 Delete package (R) including unused dependencies (n) and package configurations (c)
 ```
 pacman -Rnc <package>
-``
+```
 
 ## Usefull commands
 
