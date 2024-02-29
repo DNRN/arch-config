@@ -13,6 +13,17 @@ i3status-rust
 menu
 rofi
 
+## Pacman
+Package info
+```
+pacman -Qo <package>
+```
+
+Delete package (R) including unused dependencies (n) and package configurations (c)
+```
+pacman -Rnc <package>
+``
+
 ## Usefull commands
 
 Clear pacman cache
