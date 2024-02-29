@@ -24,8 +24,6 @@ Delete package (R) including unused dependencies (n) and package configurations 
 pacman -Rnc <package>
 ```
 
-## Usefull commands
-
 Clear pacman cache
 ```
 sudo paccache -rk 1
