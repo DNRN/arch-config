@@ -6,6 +6,7 @@ rua
 
 Desktop
 i3wd
+LightDM + slick-greeter
 
 bar
 i3status-rust
