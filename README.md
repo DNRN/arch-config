@@ -14,6 +14,11 @@ i3status-rust
 menu
 rofi
 
+### Bootloader
+systemd-boot with windows dual boot.
+
+Including UEFI Shell edk2-shell
+
 ## Pacman
 Package info
 ```
