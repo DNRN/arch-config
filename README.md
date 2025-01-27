@@ -7,6 +7,7 @@ rua
 
 Desktop
 i3wd
+
 LightDM + slick-greeter
 
 status bar
