@@ -1,6 +1,7 @@
 # arch-config
 My Arch linux config
 
+## Setup
 AUR manager
 rua
 
@@ -8,7 +9,7 @@ Desktop
 i3wd
 LightDM + slick-greeter
 
-bar
+status bar
 i3status-rust
 
 menu
